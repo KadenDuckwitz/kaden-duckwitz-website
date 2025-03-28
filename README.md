@@ -4,7 +4,7 @@
   and what projects I've worked on. If you're looking to contact me and request a project, this is also a good way to do that!</p>
 
 <p align="center">
-  <a href="">View the site here!</a>
+  <a href="https://kadenduckwitz.com/">View the site here!</a>
 </p>
 
 <h1 align="center">Site Preview</h1>
