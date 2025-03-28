@@ -1,6 +1,6 @@
 <h1 align="center">My Website - An Overview of My Career</h1>
 
-<p>This website was written <b>entirely</b> from scratch, and is a nice way to showcase what I know, what I can do, 
+<p align="center">This website was written <b>entirely</b> from scratch, and is a nice way to showcase what I know, what I can do, 
   and what projects I've worked on. If you're looking to contact me and request a project, this is also a good way to do that!</p>
 
 <p align="center">
