@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="icon" href="site-icon.png">
+    <link rel="stylesheet" href="stylesheets/general.css">
+    <link rel="stylesheet" href="stylesheets/navbar.css">
+    <link rel="stylesheet" href="stylesheets/contact.css">
+    <script src="scripts/email.js" defer></script>
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html">
+            <img src="site-icon.png" class="navbar-icon">
+        </a>
+        <div class="navbar-links">
+            <a href="projects.html" class="navbar-text">Projects</a>
+            <a href="languages.html" class="navbar-text">Languages</a>
+            <a href="contact.html" class="navbar-text">Contact Me</a>
+        </div>
+    </div>
+
+    <div class="contact-box">
+        <p class="contact-title">Contact Me</p>
+        <p class="contact-subtitle">Subject</p>
+        <input type="text" id="subject" class="single-line-text" placeholder="Type here">
+        <p class="contact-subtitle">Message</p>
+        <textarea id="message" class="message-box" placeholder="Type here"></textarea>
+        <hr>
+        <div class="project-size-section">
+            <p class="project-size-title">Project Size: </p>
+            <select id="project-size" class="project-size">
+                <option>I'm not contacting about a project</option>
+                <option>Small (Single feature or bug fix)</option>
+                <option>Medium (Full project with a simple goal)</option>
+                <option>Large (Complex project with multiple components and pieces)</option>
+            </select>
+        </div>
+        <p class="project-size-description">If you're unsure, give your best guess and we can discuss the details further!</p>
+        <hr>
+        <button id="submit-button" class="submit-button">Send</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+.title-section {
+    position: relative;
+    text-align: center;
+}
+
+.title, .subtitle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-weight: bold;
+    white-space: nowrap;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.title {
+    transform: translate(-50%, -50%);
+    font-size: 120px;
+}
+
+.subtitle {
+    transform: translate(-50%, 270%);
+    font-size: 30px;
+}
+
+.title-background {
+    width: 100vw;
+    height: 50vh;
+}
+
+@media (max-width: 800px) {
+    .title {
+        font-size: 13vw;
+    }
+
+    .subtitle {
+        font-size: 3vw;
+    }
+}

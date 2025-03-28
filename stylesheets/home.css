@@ -1,0 +1,47 @@
+body {
+    background-image: url("../images/general-background.jpg");
+    background-position: center top;
+}
+
+.home-title, .home-subtitle {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-weight: bold;
+    white-space: nowrap;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.home-title {
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+}
+
+.home-subtitle {
+    transform: translate(-50%, 270%);
+    font-size: 20px;
+}
+
+.home-background {
+    width: 100vw;
+    height: 100vh;
+}
+
+@media (min-width: 900px) {
+    br {
+        display: none;
+    }
+}
+
+@media (max-width: 900px) {
+    .home-title {
+        font-size: 10vw;
+    }
+
+    .home-subtitle {
+        font-size: 3.5vw;
+        transform: translate(-50%, 75%);
+    }
+}
